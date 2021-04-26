@@ -7,6 +7,7 @@ function alerta(){ return 'diferente'}
 
 let alertaFlecha = (x,y) => x + ' ' + y;
 
+
 function funcao(valor) {
     
     let resposta;

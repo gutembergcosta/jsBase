@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    
+</head>
+<body>
+
+    <form id="form">
+        <input type="text" id="input_texto" name="fname">
+        <br><br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br>
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label>
+        <br><br>
+        <input type="checkbox" id="ckbox00" name="ckbox00" value="ckbox único">
+        <label for="other">checkbox único</label>
+        <br><br>
+        <input type="checkbox" id="ckBox1" name="vehicle1" value="Bike">
+        <label for="vehicle1"> I have a bike</label><br>
+        <input type="checkbox" id="ckBox2" name="vehicle2" value="Car">
+        <label for="vehicle2"> I have a car</label><br>
+        <input type="checkbox" id="ckBox3" name="vehicle3" value="Boat">
+        <label for="vehicle3"> I have a boat</label>
+        <br><br>
+        <label for="textArea">Text Aare</label><br>
+        <textarea id="textArea"></textarea>
+        <br><br>
+        <label for="cars">Choose a car:</label>
+        <select id="seletor" name="cars">
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+            <option value="fiat">Fiat</option>
+            <option value="audi">Audi</option>
+        </select>
+        <br><br>
+        <input type="file" name="arquivos[]" id="arquivos" accept=".png, .jpg, .jpeg" multiple>
+        <div id="galeria">
+
+        </div>
+        <br><br>
+        <button type="submit" id="enviar">Enviar</button>
+
+    </form>
+
+    <script src="formulario.js"></script>    
+</body>
+</html>

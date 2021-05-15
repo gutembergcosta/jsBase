@@ -43,7 +43,7 @@ switch (expr) {
       console.log("Mangas e mamões custam $2.79 o quilo.");
       break;
     default:
-      console.log("Desculpe, estamos sem nenhuma " + expr + ".");
+      console.log(`Desculpe, estamos sem nenhuma ${expr}`);
 }
 
 console.log('-----------------------')

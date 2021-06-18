@@ -8,7 +8,8 @@ const matriz01 = [{
 
 const matriz02 = ['x','y','z','a'];
 const matriz03 = [1,2,3,4,5];
-const matriz_concatenado = matriz02.concat(matriz03);
+//const matriz_concatenado = matriz02.concat(matriz03);
+const matriz_concatenado = [...matriz02, ...matriz03];
 
 const every_x = matriz_concatenado.every(
   function verifica(elem, index, objeto){
@@ -21,7 +22,7 @@ const filter_x = matriz_concatenado.filter(
     return (elem > 3)
   }
 )
-const filter_y = matriz_concatenado.filter(
+const filtrar_somente_strings = matriz_concatenado.filter(
   function filtrar(elem, index, objeto){
     return (typeof elem == "string")
   }
@@ -72,7 +73,7 @@ console.log('splice 02 : ' + ['x','y','z','a'].splice(2,2,'a','s') )
 
 console.log('every: ' + every_x)
 console.log('filtrar números: ' + filter_x)
-console.log('filtrar string: ' + filter_y)
+console.log('filtrar string: ' + filtrar_somente_strings)
 console.log('matriz_each: ' + data_each )
 console.log('matriz_map: ' + matriz_mapFinal)
 console.log('reduce_x: ' + reduce_x)

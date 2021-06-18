@@ -2,9 +2,6 @@ import Trabalho from './Trabalho.js'
 
 export default class Pessoa extends Trabalho{
 
-
-    
-
     constructor(){
         super();
         this.nome = 'fulano';

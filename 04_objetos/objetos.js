@@ -24,9 +24,7 @@ const objetoLiteral = {
 
 }
 
-console.log(objetoLiteral.nome)
-console.log(objetoLiteral.matriz[0])
-console.log(objetoLiteral.obj["nome"])
-console.log(objetoLiteral.usarobj('funcao'))
-console.log(objetoLiteral.usarthis(1,2))
-console.log(objetoLiteral.usarthis02(3,2))
+console.log('01 - nome : ' + objetoLiteral.nome)
+console.log('02 - matriz[0] : ' + objetoLiteral.matriz[0])
+console.log('03 - obj["nome"] : ' + objetoLiteral.obj["nome"])
+console.log('04 - usarobj(fulano) : ' + objetoLiteral.usarobj('fulano'))

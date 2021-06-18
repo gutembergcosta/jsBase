@@ -21,5 +21,5 @@ for(item in objeto){
 }
 
 for(item in objeto){
-    console.log('chave: ' + objeto.nome + '\n'  );
+    console.log('Elemento do objeto: ' + objeto.nome + '\n'  );
 }
